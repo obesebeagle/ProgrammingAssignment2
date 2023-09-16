@@ -1,6 +1,8 @@
 ## Matrix inversion is usually a costly computation and there may be some benefit 
 ## to caching the inverse of a matrix rather than compute it repeatedly.
 ## These two functions do exactly that.
+## The following code follows the exact same structure as the makeVector() and cachemean()
+## examples in the instruction.
 
 ## The function makeCacheMatrix() creates a special "matrix" object that can cache its inverse.
 
